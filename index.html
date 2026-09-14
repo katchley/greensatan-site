@@ -73,7 +73,7 @@
     .recent-events {
       color: #73D047;
       margin-bottom: 0.4rem;
-      font-size: 0.9rem;
+      font-size: 0.8rem;
       letter-spacing: 0.08em;
       text-transform: uppercase;
     }
@@ -89,6 +89,27 @@
 
     .spotify-wrap {
       margin-top: 2rem;
+    }
+
+    .track {
+      margin-bottom: 1.75rem;
+    }
+
+    .track:last-of-type {
+      margin-bottom: 2.5rem;
+    }
+
+    .track-title {
+      font-size: 0.9rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #E8F5E8;
+      margin-bottom: 0.5rem;
+    }
+
+    audio {
+      width: 100%;
+      height: 40px;
     }
   </style>
 </head>
@@ -113,6 +134,26 @@
       <strong>greensatan</strong> is an electronic music project rooted in improvisation and psychedelia.
     <BR>  The music betrays influences of noise, minimal techno, post avant-garde electronics, genre (horror) film-scores/sound-design.
     </p>
+
+    <p class="section-label">Listen</p>
+    <div class="track">
+      <p class="track-title">Goblin</p>
+      <audio controls preload="none" src="audio/goblin.mp3">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+    <div class="track">
+      <p class="track-title">3 Fates</p>
+      <audio controls preload="none" src="audio/3-fates.mp3">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+    <div class="track">
+      <p class="track-title">Witch Radio</p>
+      <audio controls preload="none" src="audio/witch-radio.mp3">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
 
     <p class="section-label">Recent Events</p>
     <p class="recent-events">July 28th: Live in-studio performance on Hydrogen Jukebox w/Isotope, KFJC FM</p>
